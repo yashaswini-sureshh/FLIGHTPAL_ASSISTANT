@@ -51,18 +51,19 @@ make sure every folder contain __init__.py
 so that python will understand folders as modules
 
 ## step 4 
-create Data and database folder
-keep all the downloaded documents in the data folder. 
 
 python src\rag\document_loader.py
 python src\rag\text_processing.py
 python src\rag\vector_store.py 
-run the above cmds to load to documents,text pre_processing,converting into embedings
+run the above cmds to 
+load to documents,
+text pre_processing,
+converting into embedings.
 
 ## step 5
 ### create database folder
 python build_db.py 
-run the above command,Build Vector Database
+run the command,it builds Build Vector Database
 
 python src\rag\rag_pipeline.py
 
